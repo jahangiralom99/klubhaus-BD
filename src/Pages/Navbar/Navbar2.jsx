@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 
 const Navbar2 = () => {
   return (
-    <div className=" max-w-screen-xl mx-auto px-4 hidden lg:block">
+    <div className=" max-w-screen-xl mx-auto px-4 mt-16 hidden lg:block">
       <ul className="flex items-center justify-center">
-              <li className="font-bold hover:text-red-500 uppercase">
-                  <Link to="/">Home</Link>
+        <li className="font-bold hover:text-red-500 uppercase">
+          <Link to="/">Home</Link>
         </li>
-        <li className="relative p-4 group z-[99]">
+        <li className="relative p-4 group z-[9]">
           <Link className="flex uppercase text-red-500 hover:text-red-500 items-center font-bold gap-1">
             EID-UL-ADHA'24 <IoIosArrowDown />
           </Link>
@@ -23,7 +23,7 @@ const Navbar2 = () => {
             </div>
           </ul>
         </li>
-        <li className="relative p-4 group z-[500]">
+        <li className="relative p-4 group z-[9]">
           <Link className="flex uppercase text-green-500 hover:text-red-500 items-center font-bold gap-1">
             NEW IN <IoIosArrowDown />
           </Link>
@@ -37,7 +37,7 @@ const Navbar2 = () => {
             </div>
           </ul>
         </li>
-        <li className="relative p-4 group z-[500]">
+        <li className="relative p-4 group z-[9]">
           <Link className="flex uppercase hover:text-red-500 items-center  font-bold gap-1">
             Men <IoIosArrowDown />
           </Link>
@@ -62,7 +62,7 @@ const Navbar2 = () => {
             </div>
           </ul>
         </li>
-        <li className="relative p-4 group z-[500]">
+        <li className="relative p-4 group z-[9]">
           <Link className="flex uppercase hover:text-red-500 items-center font-bold gap-1">
             Women <IoIosArrowDown />
           </Link>
@@ -88,7 +88,7 @@ const Navbar2 = () => {
             </div>
           </ul>
         </li>
-        <li className="relative p-4 group z-[500]">
+        <li className="relative p-4 group z-[9]">
           <Link className="flex uppercase hover:text-red-500 items-center font-bold gap-1">
             CUB KLub <IoIosArrowDown />
           </Link>
@@ -138,7 +138,7 @@ const Navbar2 = () => {
             </div>
           </ul>
         </li>
-        <li className="relative p-4 group z-[500]">
+        <li className="relative p-4 group z-[9] ">
           <Link className="flex uppercase text-[#00f] hover:text-red-500 items-center  font-bold gap-1">
             FOOTWEAR <IoIosArrowDown />
           </Link>
@@ -152,7 +152,7 @@ const Navbar2 = () => {
             </div>
           </ul>
         </li>
-        <li className="relative p-4 group z-[500]">
+        <li className="relative p-4 group z-[9]">
           <Link className="flex uppercase hover:text-red-500 items-center font-bold gap-1">
             ESSENTIAL <IoIosArrowDown />
           </Link>
@@ -170,7 +170,7 @@ const Navbar2 = () => {
             </div>
           </ul>
         </li>
-        <li className="relative p-4 group z-[5500]">
+        <li className="relative p-4 group z-[9]">
           <Link className="flex hover:text-red-500 uppercase items-center font-bold gap-1">
             ACCESSORIES <IoIosArrowDown />
           </Link>

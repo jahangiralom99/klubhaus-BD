@@ -1,7 +1,7 @@
 import image from "../../assets/WhatsApp_Image_2024-06-07_at_10.56.37_AM.jpg"
 const Trending = () => {
     return (
-        <div className="mt-8 relative">
+        <div className="mt-8 relative max-w-screen-xl mx-auto">
             <img src={image} alt="" />
             <div className="space-y-4 absolute left-10 top-[80px] md:top-[200px] lg:top-[300px]">
                 <h1 className="text-3xl font-semibold">Trending Now</h1>

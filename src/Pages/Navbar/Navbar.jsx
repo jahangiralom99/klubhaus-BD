@@ -8,14 +8,16 @@ import {
 import logo from "../../assets/logo_220x.avif";
 import { CiShoppingCart } from "react-icons/ci";
 import SearchBar from "./SearchBar";
-import { IoMenuSharp } from "react-icons/io5";
+import SideBar from "./SideBar";
 
 const Navbar = () => {
   return (
-    <div className="p-5 max-w-screen-xl mx-auto px-4">
+    <div className="p-5 w-full bg-white fixed top-0 z-[500] px-4">
       <div className="flex justify-between ">
         <div className="flex items-center lg:hidden gap-3">
-          <IoMenuSharp className="text-4xl " />
+          <div>
+            <SideBar />
+          </div>
           <div className="lg:hidden">
             <SearchBar />
           </div>
