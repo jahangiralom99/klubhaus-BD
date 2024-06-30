@@ -4,6 +4,7 @@ import img1 from "../../assets/collection/klubhaus_bd1.webp";
 import img2 from "../../assets/collection/klubhaus_bd2.webp";
 import img3 from "../../assets/collection/klubhaus_bd3.webp";
 import img4 from "../../assets/collection/klubhaus_bd4.webp";
+import { Link } from "react-router-dom";
 
 const Collection = () => {
   return (
@@ -11,14 +12,14 @@ const Collection = () => {
       <h1 className="text-center text-2xl font-semibold">New Collections</h1>
       <section className="hidden md:block">
         <div className="grid grid-cols-1 md:grid-cols-4 mt-8 justify-items-center">
-          <div>
+          <Link to="/card">
             <img
               className="w-[400px] h-[400px] object-cover"
               src={img1}
               alt="Collection-image"
             />
             <p className="mt-4 text-xl text-center">Cub Klub</p>
-          </div>
+          </Link>
           <div>
             <img
               className="w-[400px] h-[400px] object-cover "

@@ -9,6 +9,7 @@ import logo from "../../assets/logo_220x.avif";
 import { CiShoppingCart } from "react-icons/ci";
 import SearchBar from "./SearchBar";
 import SideBar from "./SideBar";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -34,7 +35,7 @@ const Navbar = () => {
           <img src={logo} alt="" />
         </div>
         <div className="flex items-center gap-5 cursor-pointer">
-          <FaRegUser className="text-xl hover:text-[#FF8C00]" />
+          <Link to="/login"><FaRegUser className="text-xl hover:text-[#FF8C00]" /></Link>
           <div className="hidden lg:block">
             <SearchBar />
           </div>

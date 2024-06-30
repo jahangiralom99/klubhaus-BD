@@ -2,7 +2,7 @@
 import { IoIosArrowDown } from "react-icons/io";
 import { Link } from "react-router-dom";
 
-const Navbar2 = () => {
+const Navbar2 = () => { 
   return (
     <div className=" max-w-screen-xl mx-auto px-4 mt-16 hidden lg:block">
       <ul className="flex items-center justify-center">
