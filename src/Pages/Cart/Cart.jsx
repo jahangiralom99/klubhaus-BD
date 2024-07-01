@@ -67,7 +67,7 @@ const Cart = () => {
             <GoPlus className="text-xl" />
           </div>
           <Link to="/checkout">
-            <button className="mt-6 w-full mx-auto text-center font-bold text-white py-4 bg-[#b1945c]">
+            <button className="mt- w-full mx-auto text-center font-bold text-white py-4 bg-[#b1945c]">
               Check Out
             </button>
           </Link>
