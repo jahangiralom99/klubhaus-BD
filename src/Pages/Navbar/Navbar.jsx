@@ -35,11 +35,18 @@ const Navbar = () => {
           <img src={logo} alt="" />
         </div>
         <div className="flex items-center gap-5 cursor-pointer">
-          <Link to="/login"><FaRegUser className="text-xl hover:text-[#FF8C00]" /></Link>
+          <Link to="/login">
+            <FaRegUser className="text-xl hover:text-[#FF8C00]" />
+          </Link>
           <div className="hidden lg:block">
             <SearchBar />
           </div>
-          <CiShoppingCart className="text-3xl hover:text-[#FF8C00]" />
+          <Link to="/cart" className="relative">
+            <CiShoppingCart className="text-3xl hover:text-[#FF8C00]" />
+            <div className="absolute -top-1 -right-0">
+              <p className="px-1 font-bold text-sm text-white rounded-full bg-[#b1945c]">0</p>
+            </div>
+          </Link>
         </div>
       </div>
       <hr className="mt-4" />

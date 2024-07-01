@@ -1,11 +1,14 @@
+/* eslint-disable react/no-unescaped-entities */
+import { Link } from "react-router-dom";
+
 const Login = () => {
   return (
     <div className="mt-24 max-w-3xl mx-auto">
       <div className="text-center space-y-4">
         <h1 className="text-4xl font-bold">Login</h1>
-        <p>Don't have an account? Sign up here.</p>
+        <p className="text-xl">Don't have an account? <Link className="hover:text-[#b1945c] font-bold" to="/register">Register here.</Link></p>
       </div>
-      <div className=" py-6 px-8 h-80 mt-20 bg-white rounded shadow-xl">
+      <div className=" py-6 px-8 h-80 bg-white rounded shadow-xl">
         <form action="">
           <div className="mb-6">
             <label className="block text-gray-800 font-bold">Name:</label>
