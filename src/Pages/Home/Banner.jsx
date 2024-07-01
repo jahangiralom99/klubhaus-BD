@@ -8,7 +8,7 @@ const Banner = () => {
     <div>
       <Carousel showThumbs={false} autoPlay showArrows={true}>
         <div className="relative ">
-          <img src={banner1} />
+          <img className="w-44" src={banner1} />
           <div className="space-y-4 hidden md:block absolute left-10 top-[40px] md:top-[200px] lg:top-[250px]">
             <h1 className="text-3xl font-semibold text-white"> EID STYLES </h1>
             <p className="text-xl text-white">The Season's latest</p>

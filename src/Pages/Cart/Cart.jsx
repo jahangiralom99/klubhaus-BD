@@ -1,4 +1,5 @@
 import { GoPlus } from "react-icons/go";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   return (
@@ -17,7 +18,7 @@ const Cart = () => {
           <div className="mt-6 flex flex-col md:flex-row  items-center gap-4 justify-between">
             <div className="flex items-center gap-8 ">
               <img
-                className="w-20 h-28"
+                className="w-44 md:w-20 md:h-28"
                 src="https://i.ibb.co/yqpMY7W/Task-12193912-1-2-4-K-360x.webp"
                 alt=""
               />
@@ -44,7 +45,7 @@ const Cart = () => {
             <p className="font-sm font-bold">SUBTOTAL</p>
             <h1 className="text-2xl font-bold text-[#b1945c]">TK 4,990.00</h1>
           </div>
-          <div className="flex justify-start gap-3 ml-6 mt-3">
+          <div className="flex justify-start gap-3 ml-6 mt-6">
             <input type="checkbox" id="id" name="name" value="nothing"></input>
             <p className="font-bold">
               {" "}
@@ -55,19 +56,21 @@ const Cart = () => {
               and <span className="text-blue-500">Return Refund Policy</span>
             </p>
           </div>
-          <hr className="mt-2" />
-          <div className="flex mt-2 justify-between items-center ">
+          <hr className="mt-5" />
+          <div className="flex mt-6 justify-between items-center ">
             <p className="text-sm">Add Order Notes</p>
             <GoPlus className="text-xl" />
           </div>
-          <hr className="mt-2" />
-          <div className="flex mt-2 justify-between items-center ">
+          <hr className="mt-5" />
+          <div className="flex mt-6 justify-between items-center ">
             <p className="text-sm">Estimate Shipping</p>
             <GoPlus className="text-xl" />
           </div>
-          <button className="mt-5 w-full mx-auto text-center font-bold text-white py-4 bg-[#b1945c]">
-            Check Out
-          </button>
+          <Link to="/checkout">
+            <button className="mt-6 w-full mx-auto text-center font-bold text-white py-4 bg-[#b1945c]">
+              Check Out
+            </button>
+          </Link>
           <p className="italic text-sm mt-4 font-semibold">
             Shipping, taxes, and discount codes are calculated at checkout
           </p>

@@ -8,7 +8,7 @@ const SearchBar = () => {
   return (
     <div className="">
       <div onClick={() => setOpen(!open)}>
-        <CiSearch className="text-3xl hover:text-[#FF8C00] cursor-pointer" />
+        <CiSearch className="text-3xl hover:text-[#b1945c] cursor-pointer" />
       </div>
       <div>
         {open && (

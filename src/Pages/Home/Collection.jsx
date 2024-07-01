@@ -81,7 +81,7 @@ const Collection = () => {
             <SwiperSlide>
               <div className="cursor-pointer">
                 <Link to="/card">
-                  <img className="h-[600px] z-50 object-cover" src={img1} />
+                  <img className="md:h-[600px] w-full z-50 object-cover" src={img1} />
                   <p className="mt-4 text-xl text-center">Cub Klub</p>
                 </Link>
               </div>
@@ -89,7 +89,7 @@ const Collection = () => {
             <SwiperSlide>
               <div>
                 <Link to="/card">
-                  <img className="h-[600px] object-cover" src={img2} />
+                  <img className="md:h-[600px] w-full object-cover" src={img2} />
                   <p className="mt-4 text-xl text-center">Men's Panjabi</p>
                 </Link>
               </div>
@@ -97,7 +97,7 @@ const Collection = () => {
             <SwiperSlide>
               <div>
                 <Link to="/card">
-                  <img className="h-[600px] object-cover" src={img3} />
+                  <img className="md:h-[600px] w-full object-cover" src={img3} />
                   <p className="mt-4 text-xl text-center">
                     Women's Ethnic Suit
                   </p>
@@ -107,7 +107,7 @@ const Collection = () => {
             <SwiperSlide>
               <div>
                 <Link to="/card">
-                  <img className="h-[600px] object-cover" src={img4} />
+                  <img className="md:h-[600px] w-full object-cover" src={img4} />
                   <p className="mt-4 text-xl text-center">EID-UL-ADHA'24</p>
                 </Link>
               </div>

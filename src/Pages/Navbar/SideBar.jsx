@@ -28,9 +28,10 @@ const SideBar = () => {
           } z-[500]`}
         >
           <ul className="p-5 space-y-4 ">
-            <li className="text-xl font-bold  border-b-2 pb-2 uppercase">
+            <Link to="/" className="text-xl font-bold pb-2 uppercase">
               Home
-            </li>
+            </Link>
+            <hr />
             <li onClick={() => setClose(!close)} className="relative z-[99]">
               <Link className="flex uppercase  hover:text-red-500 items-center font-bold gap-1 border-b-2 pb-2 text-xl ">
                 EID-UL-ADHA'24 <IoIosArrowDown />

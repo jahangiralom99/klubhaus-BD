@@ -25,10 +25,10 @@ const Navbar = () => {
         </div>
         <div className="hidden lg:block ">
           <div className="flex items-center  gap-5 cursor-pointer ">
-            <FaInstagram className="text-xl hover:text-[#FF8C00]" />
-            <FaFacebookSquare className="text-xl hover:text-[#FF8C00]" />
-            <FaYoutube className="text-xl hover:text-[#FF8C00]" />
-            <FaTiktok className="text-xl hover:text-[#FF8C00]" />
+            <FaInstagram className="text-xl hover:text-[#b1945c]" />
+            <FaFacebookSquare className="text-xl hover:text-[#b1945c]" />
+            <FaYoutube className="text-xl hover:text-[#b1945c]" />
+            <FaTiktok className="text-xl hover:text-[#b1945c]" />
           </div>
         </div>
         <div>
@@ -36,15 +36,15 @@ const Navbar = () => {
         </div>
         <div className="flex items-center gap-5 cursor-pointer">
           <Link to="/login">
-            <FaRegUser className="text-xl hover:text-[#FF8C00]" />
+            <FaRegUser className="text-xl hover:text-[#b1945c]" />
           </Link>
           <div className="hidden lg:block">
             <SearchBar />
           </div>
           <Link to="/cart" className="relative">
-            <CiShoppingCart className="text-3xl hover:text-[#FF8C00]" />
+            <CiShoppingCart className="text-3xl hover:text-[#b1945c]" />
             <div className="absolute -top-1 -right-0">
-              <p className="px-1 font-bold text-sm text-white rounded-full bg-[#b1945c]">0</p>
+              <p className="px-1 font-bold text-sm text-white rounded-full bg-[#b1945c]">1</p>
             </div>
           </Link>
         </div>
